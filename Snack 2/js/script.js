@@ -53,7 +53,7 @@ for (let key in teams) {
 let arrayOutput = []
 
 for (let key in teams) {
-    arrayOutput.push(teams[key].nome, teams[key].puntiFatti);
+    arrayOutput.push({"nome": teams[key].nome, "puntiFatti": teams[key].puntiFatti});
 }
 
 console.log(arrayOutput);
